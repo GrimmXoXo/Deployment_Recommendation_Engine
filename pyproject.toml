@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "book-recommendation-system"
+version = "0.1.0"
+description = "Creating a Book recommendation based on User Profiling"
+authors = ["GrimmXoXo <grimmxoxo2001@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+Flask = "^3.0.3"
+Flask-BabelEx = "^0.9.4"
+Flask-Login = "^0.6.2"
+Flask-Mail = "^0.9.1"
+Flask-Principal = "^0.4.0"
+Flask-Security = "^3.0.0"
+Flask-WTF = "^1.2.1"
+Werkzeug = "^3.0.3"
+psycopg2-binary = "^2.9.9"
+python-dotenv = "^1.0.0"
+numpy = "1.26.4"
+pandas = "2.2.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
