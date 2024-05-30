@@ -59,3 +59,4 @@ jobs:
             --region ${{ env.REGION }} \
             --allow-unauthenticated \
             --update-env-vars DATABASE_URL=${{ secrets.DATABASE_URL }}
+            #done
