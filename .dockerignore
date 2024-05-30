@@ -4,3 +4,5 @@
 docker-compose.yml
 Dockerfile
 .gitignore
+# Ignore generated credentials from google-github-actions/auth
+gha-creds-*.json
