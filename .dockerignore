@@ -7,3 +7,6 @@ Dockerfile
 .gitignore
 # Ignore generated credentials from google-github-actions/auth
 gha-creds-*.json
+README.md
+LICENSE
+user_info.json
