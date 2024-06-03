@@ -36,8 +36,7 @@ To begin using this project:
 
    ```bash
    poetry install
-
-
+   ```
 
 3. Run the application using Gunicorn:
 
