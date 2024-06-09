@@ -21,11 +21,12 @@ This project presents an advanced book recommendation system utilizing a hybrid 
 
 ## Things That Can Be Improved
 
-1. **Middleware and Caching**: Implement middleware for input validation and utilize Redis for caching database calls to improve performance and efficiency.
+1. **Middleware and Caching**: Implement middleware for input validation and utilize Redis for caching database calls to improve performance and efficiency.Adding Logging and testing too would be great for the implementation.
 
 2. **Advanced Techniques**: Explore advanced recommendation techniques such as Neural Collaborative Filtering, Alternating Least Squares (ALS), and Decision Trees (content-based classifier) to enhance recommendation accuracy and diversity.
 
-3. **Evaluation Metrics**: Utilize evaluation metrics such as Normalized Discounted Cumulative Gain (NDCG@k) to compare the performance of the recommendation system against baseline models, providing insights into its effectiveness and areas for improvement.
+3. **Implementing Micro-service Design**: Adding Microservices is a better and scalable approach which will use the full capabilities of Cloud, Adding ways to implement database transactions,event Sourcing db,Chuncking big db(AWS_RDS/Google_cloudsql or AWS_S3 ).
+
 
 ## Getting Started
 
